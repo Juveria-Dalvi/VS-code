@@ -1,0 +1,54 @@
+{ 
+    //BACKGROUNG THEME AND FILE ICON THEME EXTENTION : "JELLYFISH" & "MATERIAL ICON THEME"!
+    "workbench.colorTheme": "JellyFish",
+    "workbench.iconTheme": "material-icon-theme",
+
+
+    "debug.console.fontSize": 14,
+    "diffEditor.wordWrap": "on",
+
+    "editor.fontWeight": "500",
+    "editor.fontSize":18,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.renderWhitespace": "trailing"
+        }
+      ,
+
+
+    
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote":true,
+    
+
+    //SETTING FOR SASS WITH EXTENTION :"LIVE SASS COMPILER" !
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+
+    
+    "prettier.useTabs": true,
+    "prettier.trailingComma": "none",
+    "prettier.enable": true,
+    "editor.formatOnSaveMode": "modifications",
+    "prettier.embeddedLanguageFormatting": "auto",
+    "html.format.enable": true,
+    "markdown.trace": "verbose",
+
+
+    // Below Settings changes the bracket colors if you install extention "Bracket-Pair Colorizer 2"
+    "bracket-pair-colorizer-2.colors": [
+        "#FFEF78",
+        "#39A2DB",
+        "#29BB89"
+    ],
+    "bracket-pair-colorizer-2.colorMode": "Independent"
+   
+}
